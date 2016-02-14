@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B901A7E515B9698700F2826A /* TFMainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B901A7E415B9698700F2826A /* TFMainMenuController.m */; };
+		B901A7F115B9ACF500F2826A /* TFPuzzlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B901A7F015B9ACF500F2826A /* TFPuzzlesViewController.m */; };
+		B901EC5215B3FAE60037F55C /* TFStonesTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = B901EC5115B3FAE60037F55C /* TFStonesTabController.m */; };
+		B901EC5415B3FFBF0037F55C /* TFStoneTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F72615B1FE7F00D1E98D /* TFStoneTableCell.m */; };
+		B901EC5515B3FFC20037F55C /* TFStoneShaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F72215B1FE7F00D1E98D /* TFStoneShaperView.m */; };
+		B9099D1C15DD76C000BBBB35 /* puzzle5.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9099D1B15DD76C000BBBB35 /* puzzle5.tfpackergame */; };
+		B936F6ED15B040F100D1E98D /* testingStones.tfstones in Resources */ = {isa = PBXBuildFile; fileRef = B936F6EC15B040F100D1E98D /* testingStones.tfstones */; };
+		B936F6EE15B040F100D1E98D /* testingStones.tfstones in Resources */ = {isa = PBXBuildFile; fileRef = B936F6EC15B040F100D1E98D /* testingStones.tfstones */; };
+		B936F6F115B05FDE00D1E98D /* TFGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F6F015B05FDE00D1E98D /* TFGame.m */; };
+		B936F6F215B05FDE00D1E98D /* TFGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F6F015B05FDE00D1E98D /* TFGame.m */; };
+		B936F72715B1FE7F00D1E98D /* TFStoneShaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F72215B1FE7F00D1E98D /* TFStoneShaperView.m */; };
+		B936F72915B1FE7F00D1E98D /* TFStonesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F72415B1FE7F00D1E98D /* TFStonesWindowController.m */; };
+		B936F72B15B1FE7F00D1E98D /* TFStoneTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F72615B1FE7F00D1E98D /* TFStoneTableCell.m */; };
+		B937B44215BC03DF0050CDEC /* TFGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B937B44115BC03DF0050CDEC /* TFGameView.m */; };
+		B937B44C15BC23820050CDEC /* TFTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B937B44B15BC23820050CDEC /* TFTextureLoader.m */; };
+		B953619615A31C0900A61BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953619515A31C0900A61BBE /* UIKit.framework */; };
+		B953619815A31C0900A61BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953619715A31C0900A61BBE /* Foundation.framework */; };
+		B953619A15A31C0900A61BBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953619915A31C0900A61BBE /* CoreGraphics.framework */; };
+		B95361A015A31C0900A61BBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B953619E15A31C0900A61BBE /* InfoPlist.strings */; };
+		B95361A215A31C0900A61BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95361A115A31C0900A61BBE /* main.m */; };
+		B95361A615A31C0900A61BBE /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95361A515A31C0900A61BBE /* TFAppDelegate.m */; };
+		B95361AC15A31C0900A61BBE /* TFMainMenuController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95361AA15A31C0900A61BBE /* TFMainMenuController_iPhone.xib */; };
+		B95361AF15A31C0900A61BBE /* TFMainMenuController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95361AD15A31C0900A61BBE /* TFMainMenuController_iPad.xib */; };
+		B96D2D1915A9BBA200F06CA0 /* TFStone.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FA15A725F3009C6BF9 /* TFStone.m */; };
+		B96D2D1A15A9BC2800F06CA0 /* TFGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60F815A725F3009C6BF9 /* TFGrid.m */; };
+		B96D2D1B15A9BC3500F06CA0 /* TFStoneOnGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */; };
+		B96D2D2315AB08BE00F06CA0 /* TFPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D2D2215AB08BE00F06CA0 /* TFPosition.m */; };
+		B96D2D2415AB08BE00F06CA0 /* TFPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D2D2215AB08BE00F06CA0 /* TFPosition.m */; };
+		B96D2D2515AB08BE00F06CA0 /* TFPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D2D2215AB08BE00F06CA0 /* TFPosition.m */; };
+		B993D65615B03982007B9D89 /* TFStoneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEEA15AEC62A00D67267 /* TFStoneGenerator.m */; };
+		B9954C0415B32175007ECAF5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99D60CC15A704A5009C6BF9 /* Cocoa.framework */; };
+		B9954C0A15B32175007ECAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9954C0815B32175007ECAF5 /* InfoPlist.strings */; };
+		B9954C0C15B32175007ECAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9954C0B15B32175007ECAF5 /* main.m */; };
+		B9954C1015B32175007ECAF5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B9954C0E15B32175007ECAF5 /* Credits.rtf */; };
+		B9954C1315B32175007ECAF5 /* TFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B9954C1215B32175007ECAF5 /* TFDocument.m */; };
+		B9954C1615B32175007ECAF5 /* TFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9954C1415B32175007ECAF5 /* TFDocument.xib */; };
+		B9954C1915B32175007ECAF5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9954C1715B32175007ECAF5 /* MainMenu.xib */; };
+		B9974DED15B54F8200194EDC /* TFGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9974DEC15B54F8200194EDC /* TFGridView.m */; };
+		B9974DF015B5537F00194EDC /* TFGridTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9974DEF15B5537F00194EDC /* TFGridTabController.m */; };
+		B9988D4D15C05D580013C3AB /* puzzle4.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9988D4C15C05D580013C3AB /* puzzle4.tfpackergame */; };
+		B99C044115DE4278003520E4 /* puzzle6.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B99C044015DE4278003520E4 /* puzzle6.tfpackergame */; };
+		B99C9FF815EE2DC50087712A /* TFGameViewUserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B99C9FF715EE2DC50087712A /* TFGameViewUserInput.m */; };
+		B99D604915A6F502009C6BF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953619515A31C0900A61BBE /* UIKit.framework */; };
+		B99D604A15A6F502009C6BF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B953619715A31C0900A61BBE /* Foundation.framework */; };
+		B99D605015A6F502009C6BF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B99D604E15A6F502009C6BF9 /* InfoPlist.strings */; };
+		B99D605315A6F502009C6BF9 /* LogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D605215A6F502009C6BF9 /* LogicTests.m */; };
+		B99D60A215A6FD5C009C6BF9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99D605915A6F62B009C6BF9 /* SenTestingKit.framework */; };
+		B99D60D715A72259009C6BF9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99D60CC15A704A5009C6BF9 /* Cocoa.framework */; };
+		B99D60DD15A72259009C6BF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B99D60DB15A72259009C6BF9 /* InfoPlist.strings */; };
+		B99D60DF15A72259009C6BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60DE15A72259009C6BF9 /* main.m */; };
+		B99D60E315A72259009C6BF9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B99D60E115A72259009C6BF9 /* Credits.rtf */; };
+		B99D60E615A72259009C6BF9 /* TFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60E515A72259009C6BF9 /* TFDocument.m */; };
+		B99D60E915A72259009C6BF9 /* TFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99D60E715A72259009C6BF9 /* TFDocument.xib */; };
+		B99D60EC15A72259009C6BF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99D60EA15A72259009C6BF9 /* MainMenu.xib */; };
+		B99D60FD15A725F3009C6BF9 /* TFGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60F815A725F3009C6BF9 /* TFGrid.m */; };
+		B99D60FE15A725F3009C6BF9 /* TFGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60F815A725F3009C6BF9 /* TFGrid.m */; };
+		B99D60FF15A725F3009C6BF9 /* TFStone.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FA15A725F3009C6BF9 /* TFStone.m */; };
+		B99D610015A725F3009C6BF9 /* TFStone.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FA15A725F3009C6BF9 /* TFStone.m */; };
+		B99D610115A725F3009C6BF9 /* TFStoneOnGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */; };
+		B99D610215A725F3009C6BF9 /* TFStoneOnGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */; };
+		B99E2BB215B81F3E00E3748E /* TFTestTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E2BB115B81F3E00E3748E /* TFTestTabController.m */; };
+		B99E465F15B32D27000184B3 /* TFDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E465E15B32D27000184B3 /* TFDocumentWindowController.m */; };
+		B99E466215B32E64000184B3 /* TFGeneralTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99E466115B32E64000184B3 /* TFGeneralTabController.m */; };
+		B99E466315B336F2000184B3 /* TFGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B936F6F015B05FDE00D1E98D /* TFGame.m */; };
+		B99E466415B336F5000184B3 /* TFStoneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEEA15AEC62A00D67267 /* TFStoneGenerator.m */; };
+		B99E466515B336F8000184B3 /* TFGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEFB15AEC77B00D67267 /* TFGravity.m */; };
+		B99E466615B336FC000184B3 /* TFPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D2D2215AB08BE00F06CA0 /* TFPosition.m */; };
+		B99E466715B336FF000184B3 /* TFGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60F815A725F3009C6BF9 /* TFGrid.m */; };
+		B99E466815B33702000184B3 /* TFStone.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FA15A725F3009C6BF9 /* TFStone.m */; };
+		B99E466915B33704000184B3 /* TFStoneOnGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */; };
+		B9A2AEEB15AEC62A00D67267 /* TFStoneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEEA15AEC62A00D67267 /* TFStoneGenerator.m */; };
+		B9A2AEFC15AEC77B00D67267 /* TFGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEFB15AEC77B00D67267 /* TFGravity.m */; };
+		B9A2AEFD15AEC77B00D67267 /* TFGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A2AEFB15AEC77B00D67267 /* TFGravity.m */; };
+		B9A305AB15C2778700B9A258 /* TFCGExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A305AA15C2778700B9A258 /* TFCGExtras.m */; };
+		B9AE6F3915EB68590035F3D7 /* FSTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE6F3815EB68590035F3D7 /* FSTextures.m */; };
+		B9AE6F3D15EB84220035F3D7 /* Texture_atlas_512.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6F3A15EB84220035F3D7 /* Texture_atlas_512.png */; };
+		B9AE6F3E15EB84220035F3D7 /* Texture_atlas_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6F3B15EB84220035F3D7 /* Texture_atlas_1024.png */; };
+		B9AE6F3F15EB84220035F3D7 /* Texture_atlas_2048.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6F3C15EB84220035F3D7 /* Texture_atlas_2048.png */; };
+		B9C0B9C215BAA91100D97BBC /* freePackPhone.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9C0B9BD15BAA91100D97BBC /* freePackPhone.tfpackergame */; };
+		B9C0B9C315BAA91100D97BBC /* freePackPad.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9C0B9BE15BAA91100D97BBC /* freePackPad.tfpackergame */; };
+		B9C0B9C415BAA91100D97BBC /* puzzle1.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9C0B9BF15BAA91100D97BBC /* puzzle1.tfpackergame */; };
+		B9C0B9C515BAA91100D97BBC /* puzzle2.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9C0B9C015BAA91100D97BBC /* puzzle2.tfpackergame */; };
+		B9C0B9C615BAA91100D97BBC /* puzzle3.tfpackergame in Resources */ = {isa = PBXBuildFile; fileRef = B9C0B9C115BAA91100D97BBC /* puzzle3.tfpackergame */; };
+		B9C6084215BAFD1D009DE6FD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C6084015BAFD1D009DE6FD /* GLKit.framework */; };
+		B9C6084315BAFD1D009DE6FD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C6084115BAFD1D009DE6FD /* OpenGLES.framework */; };
+		B9C6084915BB0038009DE6FD /* TFGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6084815BB0038009DE6FD /* TFGameViewController.m */; };
+		B9C6085015BB0FB2009DE6FD /* TFLevelLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6084F15BB0FB2009DE6FD /* TFLevelLoader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B901A7E315B9698700F2826A /* TFMainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFMainMenuController.h; sourceTree = "<group>"; };
+		B901A7E415B9698700F2826A /* TFMainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFMainMenuController.m; sourceTree = "<group>"; };
+		B901A7EF15B9ACF500F2826A /* TFPuzzlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPuzzlesViewController.h; sourceTree = "<group>"; };
+		B901A7F015B9ACF500F2826A /* TFPuzzlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPuzzlesViewController.m; sourceTree = "<group>"; };
+		B901EC5015B3FAE60037F55C /* TFStonesTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFStonesTabController.h; sourceTree = "<group>"; };
+		B901EC5115B3FAE60037F55C /* TFStonesTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFStonesTabController.m; sourceTree = "<group>"; };
+		B901EC5615B4005A0037F55C /* TFStonesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStonesController.h; path = CommonFiles/TFStonesController.h; sourceTree = "<group>"; };
+		B9099D1B15DD76C000BBBB35 /* puzzle5.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle5.tfpackergame; sourceTree = "<group>"; };
+		B936F6EC15B040F100D1E98D /* testingStones.tfstones */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = testingStones.tfstones; sourceTree = "<group>"; };
+		B936F6EF15B05FDE00D1E98D /* TFGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFGame.h; path = CommonFiles/TFGame.h; sourceTree = "<group>"; };
+		B936F6F015B05FDE00D1E98D /* TFGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFGame.m; path = CommonFiles/TFGame.m; sourceTree = "<group>"; };
+		B936F72115B1FE7F00D1E98D /* TFStoneShaperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStoneShaperView.h; path = CommonFiles/TFStoneShaperView.h; sourceTree = "<group>"; };
+		B936F72215B1FE7F00D1E98D /* TFStoneShaperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStoneShaperView.m; path = CommonFiles/TFStoneShaperView.m; sourceTree = "<group>"; };
+		B936F72315B1FE7F00D1E98D /* TFStonesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStonesWindowController.h; path = CommonFiles/TFStonesWindowController.h; sourceTree = "<group>"; };
+		B936F72415B1FE7F00D1E98D /* TFStonesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStonesWindowController.m; path = CommonFiles/TFStonesWindowController.m; sourceTree = "<group>"; };
+		B936F72515B1FE7F00D1E98D /* TFStoneTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStoneTableCell.h; path = CommonFiles/TFStoneTableCell.h; sourceTree = "<group>"; };
+		B936F72615B1FE7F00D1E98D /* TFStoneTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStoneTableCell.m; path = CommonFiles/TFStoneTableCell.m; sourceTree = "<group>"; };
+		B937B44015BC03DF0050CDEC /* TFGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGameView.h; sourceTree = "<group>"; };
+		B937B44115BC03DF0050CDEC /* TFGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGameView.m; sourceTree = "<group>"; };
+		B937B44A15BC23820050CDEC /* TFTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTextureLoader.h; sourceTree = "<group>"; };
+		B937B44B15BC23820050CDEC /* TFTextureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextureLoader.m; sourceTree = "<group>"; };
+		B953619115A31C0900A61BBE /* Packer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Packer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B953619515A31C0900A61BBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B953619715A31C0900A61BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B953619915A31C0900A61BBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B953619D15A31C0900A61BBE /* Packer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Packer-Info.plist"; sourceTree = "<group>"; };
+		B953619F15A31C0900A61BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B95361A115A31C0900A61BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95361A315A31C0900A61BBE /* Packer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Packer-Prefix.pch"; sourceTree = "<group>"; };
+		B95361A415A31C0900A61BBE /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		B95361A515A31C0900A61BBE /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		B95361AB15A31C0900A61BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFMainMenuController_iPhone.xib; sourceTree = "<group>"; };
+		B95361AE15A31C0900A61BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFMainMenuController_iPad.xib; sourceTree = "<group>"; };
+		B96D2D2115AB08BD00F06CA0 /* TFPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFPosition.h; path = CommonFiles/TFPosition.h; sourceTree = SOURCE_ROOT; };
+		B96D2D2215AB08BE00F06CA0 /* TFPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFPosition.m; path = CommonFiles/TFPosition.m; sourceTree = SOURCE_ROOT; };
+		B9954C0215B32175007ECAF5 /* GameDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9954C0715B32175007ECAF5 /* GameDesigner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameDesigner-Info.plist"; sourceTree = "<group>"; };
+		B9954C0915B32175007ECAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9954C0B15B32175007ECAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9954C0D15B32175007ECAF5 /* GameDesigner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameDesigner-Prefix.pch"; sourceTree = "<group>"; };
+		B9954C0F15B32175007ECAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B9954C1115B32175007ECAF5 /* TFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDocument.h; sourceTree = "<group>"; };
+		B9954C1215B32175007ECAF5 /* TFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDocument.m; sourceTree = "<group>"; };
+		B9954C1515B32175007ECAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFDocument.xib; sourceTree = "<group>"; };
+		B9954C1815B32175007ECAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B9974DEB15B54F8200194EDC /* TFGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGridView.h; sourceTree = "<group>"; };
+		B9974DEC15B54F8200194EDC /* TFGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGridView.m; sourceTree = "<group>"; };
+		B9974DEE15B5537F00194EDC /* TFGridTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGridTabController.h; sourceTree = "<group>"; };
+		B9974DEF15B5537F00194EDC /* TFGridTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGridTabController.m; sourceTree = "<group>"; };
+		B9988D4C15C05D580013C3AB /* puzzle4.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle4.tfpackergame; sourceTree = "<group>"; };
+		B99C044015DE4278003520E4 /* puzzle6.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle6.tfpackergame; sourceTree = "<group>"; };
+		B99C9FF615EE2DC50087712A /* TFGameViewUserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGameViewUserInput.h; sourceTree = "<group>"; };
+		B99C9FF715EE2DC50087712A /* TFGameViewUserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGameViewUserInput.m; sourceTree = "<group>"; };
+		B99D604615A6F502009C6BF9 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D604D15A6F502009C6BF9 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		B99D604F15A6F502009C6BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B99D605115A6F502009C6BF9 /* LogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicTests.h; sourceTree = "<group>"; };
+		B99D605215A6F502009C6BF9 /* LogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicTests.m; sourceTree = "<group>"; };
+		B99D605415A6F502009C6BF9 /* LogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		B99D605915A6F62B009C6BF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B99D60B115A70411009C6BF9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B99D60B215A70411009C6BF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B99D60B315A70411009C6BF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B99D60CC15A704A5009C6BF9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B99D60D515A72259009C6BF9 /* StonesDesigner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonesDesigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D60DA15A72259009C6BF9 /* StonesDesigner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StonesDesigner-Info.plist"; sourceTree = "<group>"; };
+		B99D60DC15A72259009C6BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B99D60DE15A72259009C6BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B99D60E015A72259009C6BF9 /* StonesDesigner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StonesDesigner-Prefix.pch"; sourceTree = "<group>"; };
+		B99D60E215A72259009C6BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B99D60E415A72259009C6BF9 /* TFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDocument.h; sourceTree = "<group>"; };
+		B99D60E515A72259009C6BF9 /* TFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDocument.m; sourceTree = "<group>"; };
+		B99D60E815A72259009C6BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFDocument.xib; sourceTree = "<group>"; };
+		B99D60EB15A72259009C6BF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B99D60F715A725F3009C6BF9 /* TFGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFGrid.h; path = CommonFiles/TFGrid.h; sourceTree = SOURCE_ROOT; };
+		B99D60F815A725F3009C6BF9 /* TFGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFGrid.m; path = CommonFiles/TFGrid.m; sourceTree = SOURCE_ROOT; };
+		B99D60F915A725F3009C6BF9 /* TFStone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStone.h; path = CommonFiles/TFStone.h; sourceTree = SOURCE_ROOT; };
+		B99D60FA15A725F3009C6BF9 /* TFStone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStone.m; path = CommonFiles/TFStone.m; sourceTree = SOURCE_ROOT; };
+		B99D60FB15A725F3009C6BF9 /* TFStoneOnGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStoneOnGrid.h; path = CommonFiles/TFStoneOnGrid.h; sourceTree = SOURCE_ROOT; };
+		B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStoneOnGrid.m; path = CommonFiles/TFStoneOnGrid.m; sourceTree = SOURCE_ROOT; };
+		B99E2BB015B81F3E00E3748E /* TFTestTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTestTabController.h; sourceTree = "<group>"; };
+		B99E2BB115B81F3E00E3748E /* TFTestTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTestTabController.m; sourceTree = "<group>"; };
+		B99E465D15B32D27000184B3 /* TFDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDocumentWindowController.h; sourceTree = "<group>"; };
+		B99E465E15B32D27000184B3 /* TFDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDocumentWindowController.m; sourceTree = "<group>"; };
+		B99E466015B32E64000184B3 /* TFGeneralTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGeneralTabController.h; sourceTree = "<group>"; };
+		B99E466115B32E64000184B3 /* TFGeneralTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGeneralTabController.m; sourceTree = "<group>"; };
+		B9A2AEE915AEC62A00D67267 /* TFStoneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFStoneGenerator.h; path = CommonFiles/TFStoneGenerator.h; sourceTree = SOURCE_ROOT; };
+		B9A2AEEA15AEC62A00D67267 /* TFStoneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFStoneGenerator.m; path = CommonFiles/TFStoneGenerator.m; sourceTree = SOURCE_ROOT; };
+		B9A2AEFA15AEC77B00D67267 /* TFGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFGravity.h; path = CommonFiles/TFGravity.h; sourceTree = "<group>"; };
+		B9A2AEFB15AEC77B00D67267 /* TFGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFGravity.m; path = CommonFiles/TFGravity.m; sourceTree = "<group>"; };
+		B9A305A915C2778700B9A258 /* TFCGExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFCGExtras.h; sourceTree = "<group>"; };
+		B9A305AA15C2778700B9A258 /* TFCGExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFCGExtras.m; sourceTree = "<group>"; };
+		B9AE6F3715EB68590035F3D7 /* FSTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTextures.h; sourceTree = "<group>"; };
+		B9AE6F3815EB68590035F3D7 /* FSTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTextures.m; sourceTree = "<group>"; };
+		B9AE6F3A15EB84220035F3D7 /* Texture_atlas_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texture_atlas_512.png; sourceTree = "<group>"; };
+		B9AE6F3B15EB84220035F3D7 /* Texture_atlas_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texture_atlas_1024.png; sourceTree = "<group>"; };
+		B9AE6F3C15EB84220035F3D7 /* Texture_atlas_2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Texture_atlas_2048.png; sourceTree = "<group>"; };
+		B9C0B9BD15BAA91100D97BBC /* freePackPhone.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = freePackPhone.tfpackergame; sourceTree = "<group>"; };
+		B9C0B9BE15BAA91100D97BBC /* freePackPad.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = freePackPad.tfpackergame; sourceTree = "<group>"; };
+		B9C0B9BF15BAA91100D97BBC /* puzzle1.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle1.tfpackergame; sourceTree = "<group>"; };
+		B9C0B9C015BAA91100D97BBC /* puzzle2.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle2.tfpackergame; sourceTree = "<group>"; };
+		B9C0B9C115BAA91100D97BBC /* puzzle3.tfpackergame */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = puzzle3.tfpackergame; sourceTree = "<group>"; };
+		B9C6084015BAFD1D009DE6FD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B9C6084115BAFD1D009DE6FD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B9C6084715BB0038009DE6FD /* TFGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFGameViewController.h; sourceTree = "<group>"; };
+		B9C6084815BB0038009DE6FD /* TFGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFGameViewController.m; sourceTree = "<group>"; };
+		B9C6084E15BB0FB2009DE6FD /* TFLevelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFLevelLoader.h; sourceTree = "<group>"; };
+		B9C6084F15BB0FB2009DE6FD /* TFLevelLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFLevelLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B953618E15A31C0900A61BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C6084215BAFD1D009DE6FD /* GLKit.framework in Frameworks */,
+				B9C6084315BAFD1D009DE6FD /* OpenGLES.framework in Frameworks */,
+				B953619615A31C0900A61BBE /* UIKit.framework in Frameworks */,
+				B953619815A31C0900A61BBE /* Foundation.framework in Frameworks */,
+				B953619A15A31C0900A61BBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9954BFF15B32175007ECAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9954C0415B32175007ECAF5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D604215A6F502009C6BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D60A215A6FD5C009C6BF9 /* SenTestingKit.framework in Frameworks */,
+				B99D604915A6F502009C6BF9 /* UIKit.framework in Frameworks */,
+				B99D604A15A6F502009C6BF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D60D215A72259009C6BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D60D715A72259009C6BF9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B901A7DD15B9601000F2826A /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				B9AE6F3A15EB84220035F3D7 /* Texture_atlas_512.png */,
+				B9AE6F3B15EB84220035F3D7 /* Texture_atlas_1024.png */,
+				B9AE6F3C15EB84220035F3D7 /* Texture_atlas_2048.png */,
+				B9AE6F3715EB68590035F3D7 /* FSTextures.h */,
+				B9AE6F3815EB68590035F3D7 /* FSTextures.m */,
+				B937B44A15BC23820050CDEC /* TFTextureLoader.h */,
+				B937B44B15BC23820050CDEC /* TFTextureLoader.m */,
+				B9A305A915C2778700B9A258 /* TFCGExtras.h */,
+				B9A305AA15C2778700B9A258 /* TFCGExtras.m */,
+				B901A7E315B9698700F2826A /* TFMainMenuController.h */,
+				B901A7E415B9698700F2826A /* TFMainMenuController.m */,
+				B901A7EF15B9ACF500F2826A /* TFPuzzlesViewController.h */,
+				B901A7F015B9ACF500F2826A /* TFPuzzlesViewController.m */,
+				B9C6084715BB0038009DE6FD /* TFGameViewController.h */,
+				B9C6084815BB0038009DE6FD /* TFGameViewController.m */,
+				B937B44015BC03DF0050CDEC /* TFGameView.h */,
+				B937B44115BC03DF0050CDEC /* TFGameView.m */,
+				B99C9FF615EE2DC50087712A /* TFGameViewUserInput.h */,
+				B99C9FF715EE2DC50087712A /* TFGameViewUserInput.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		B936F71415B1FD6C00D1E98D /* Editors */ = {
+			isa = PBXGroup;
+			children = (
+				B936F72115B1FE7F00D1E98D /* TFStoneShaperView.h */,
+				B936F72215B1FE7F00D1E98D /* TFStoneShaperView.m */,
+				B936F72315B1FE7F00D1E98D /* TFStonesWindowController.h */,
+				B936F72415B1FE7F00D1E98D /* TFStonesWindowController.m */,
+				B936F72515B1FE7F00D1E98D /* TFStoneTableCell.h */,
+				B936F72615B1FE7F00D1E98D /* TFStoneTableCell.m */,
+				B901EC5615B4005A0037F55C /* TFStonesController.h */,
+			);
+			name = Editors;
+			sourceTree = "<group>";
+		};
+		B953618615A31C0900A61BBE = {
+			isa = PBXGroup;
+			children = (
+				B99D60F615A7258C009C6BF9 /* CommonFiles */,
+				B953619B15A31C0900A61BBE /* Packer */,
+				B99D60D815A72259009C6BF9 /* StonesDesigner */,
+				B9954C0515B32175007ECAF5 /* GameDesigner */,
+				B953619415A31C0900A61BBE /* Frameworks */,
+				B953619215A31C0900A61BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B953619215A31C0900A61BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B953619115A31C0900A61BBE /* Packer.app */,
+				B99D604615A6F502009C6BF9 /* LogicTests.octest */,
+				B99D60D515A72259009C6BF9 /* StonesDesigner.app */,
+				B9954C0215B32175007ECAF5 /* GameDesigner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B953619415A31C0900A61BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6084015BAFD1D009DE6FD /* GLKit.framework */,
+				B9C6084115BAFD1D009DE6FD /* OpenGLES.framework */,
+				B99D60CC15A704A5009C6BF9 /* Cocoa.framework */,
+				B99D605915A6F62B009C6BF9 /* SenTestingKit.framework */,
+				B953619515A31C0900A61BBE /* UIKit.framework */,
+				B953619715A31C0900A61BBE /* Foundation.framework */,
+				B953619915A31C0900A61BBE /* CoreGraphics.framework */,
+				B99D60B015A70411009C6BF9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B953619B15A31C0900A61BBE /* Packer */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0B9BC15BAA91100D97BBC /* Levels */,
+				B901A7DD15B9601000F2826A /* GUI */,
+				B9C6084E15BB0FB2009DE6FD /* TFLevelLoader.h */,
+				B9C6084F15BB0FB2009DE6FD /* TFLevelLoader.m */,
+				B95361A415A31C0900A61BBE /* TFAppDelegate.h */,
+				B95361A515A31C0900A61BBE /* TFAppDelegate.m */,
+				B95361AA15A31C0900A61BBE /* TFMainMenuController_iPhone.xib */,
+				B95361AD15A31C0900A61BBE /* TFMainMenuController_iPad.xib */,
+				B99D604B15A6F502009C6BF9 /* LogicTests */,
+				B953619C15A31C0900A61BBE /* Supporting Files */,
+			);
+			path = Packer;
+			sourceTree = "<group>";
+		};
+		B953619C15A31C0900A61BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B953619D15A31C0900A61BBE /* Packer-Info.plist */,
+				B953619E15A31C0900A61BBE /* InfoPlist.strings */,
+				B95361A115A31C0900A61BBE /* main.m */,
+				B95361A315A31C0900A61BBE /* Packer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95361B515A31CF500A61BBE /* Grid, Stone */ = {
+			isa = PBXGroup;
+			children = (
+				B96D2D2115AB08BD00F06CA0 /* TFPosition.h */,
+				B96D2D2215AB08BE00F06CA0 /* TFPosition.m */,
+				B99D60F715A725F3009C6BF9 /* TFGrid.h */,
+				B99D60F815A725F3009C6BF9 /* TFGrid.m */,
+				B99D60F915A725F3009C6BF9 /* TFStone.h */,
+				B99D60FA15A725F3009C6BF9 /* TFStone.m */,
+				B99D60FB15A725F3009C6BF9 /* TFStoneOnGrid.h */,
+				B99D60FC15A725F3009C6BF9 /* TFStoneOnGrid.m */,
+			);
+			name = "Grid, Stone";
+			path = Packer;
+			sourceTree = "<group>";
+		};
+		B9954C0515B32175007ECAF5 /* GameDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				B9974DE915B54F5C00194EDC /* Views */,
+				B99E465B15B32CFB000184B3 /* Controllers */,
+				B9954C1115B32175007ECAF5 /* TFDocument.h */,
+				B9954C1215B32175007ECAF5 /* TFDocument.m */,
+				B9954C1415B32175007ECAF5 /* TFDocument.xib */,
+				B9954C1715B32175007ECAF5 /* MainMenu.xib */,
+				B9954C0615B32175007ECAF5 /* Supporting Files */,
+			);
+			path = GameDesigner;
+			sourceTree = "<group>";
+		};
+		B9954C0615B32175007ECAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9954C0715B32175007ECAF5 /* GameDesigner-Info.plist */,
+				B9954C0815B32175007ECAF5 /* InfoPlist.strings */,
+				B9954C0B15B32175007ECAF5 /* main.m */,
+				B9954C0D15B32175007ECAF5 /* GameDesigner-Prefix.pch */,
+				B9954C0E15B32175007ECAF5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9974DE915B54F5C00194EDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9974DEB15B54F8200194EDC /* TFGridView.h */,
+				B9974DEC15B54F8200194EDC /* TFGridView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B99D604B15A6F502009C6BF9 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				B936F6EC15B040F100D1E98D /* testingStones.tfstones */,
+				B99D605115A6F502009C6BF9 /* LogicTests.h */,
+				B99D605215A6F502009C6BF9 /* LogicTests.m */,
+				B99D604C15A6F502009C6BF9 /* Supporting Files */,
+			);
+			name = LogicTests;
+			path = ../LogicTests;
+			sourceTree = "<group>";
+		};
+		B99D604C15A6F502009C6BF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99D604D15A6F502009C6BF9 /* LogicTests-Info.plist */,
+				B99D604E15A6F502009C6BF9 /* InfoPlist.strings */,
+				B99D605415A6F502009C6BF9 /* LogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99D60B015A70411009C6BF9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B99D60B115A70411009C6BF9 /* AppKit.framework */,
+				B99D60B215A70411009C6BF9 /* CoreData.framework */,
+				B99D60B315A70411009C6BF9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B99D60D815A72259009C6BF9 /* StonesDesigner */ = {
+			isa = PBXGroup;
+			children = (
+				B99D60E415A72259009C6BF9 /* TFDocument.h */,
+				B99D60E515A72259009C6BF9 /* TFDocument.m */,
+				B99D60E715A72259009C6BF9 /* TFDocument.xib */,
+				B99D60EA15A72259009C6BF9 /* MainMenu.xib */,
+				B99D60D915A72259009C6BF9 /* Supporting Files */,
+			);
+			path = StonesDesigner;
+			sourceTree = "<group>";
+		};
+		B99D60D915A72259009C6BF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99D60DA15A72259009C6BF9 /* StonesDesigner-Info.plist */,
+				B99D60DB15A72259009C6BF9 /* InfoPlist.strings */,
+				B99D60DE15A72259009C6BF9 /* main.m */,
+				B99D60E015A72259009C6BF9 /* StonesDesigner-Prefix.pch */,
+				B99D60E115A72259009C6BF9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99D60F615A7258C009C6BF9 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B936F71415B1FD6C00D1E98D /* Editors */,
+				B9A2AEED15AEC63C00D67267 /* Gameplay */,
+				B95361B515A31CF500A61BBE /* Grid, Stone */,
+			);
+			name = CommonFiles;
+			sourceTree = "<group>";
+		};
+		B99E465B15B32CFB000184B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B99E465D15B32D27000184B3 /* TFDocumentWindowController.h */,
+				B99E465E15B32D27000184B3 /* TFDocumentWindowController.m */,
+				B99E466015B32E64000184B3 /* TFGeneralTabController.h */,
+				B99E466115B32E64000184B3 /* TFGeneralTabController.m */,
+				B901EC5015B3FAE60037F55C /* TFStonesTabController.h */,
+				B901EC5115B3FAE60037F55C /* TFStonesTabController.m */,
+				B9974DEE15B5537F00194EDC /* TFGridTabController.h */,
+				B9974DEF15B5537F00194EDC /* TFGridTabController.m */,
+				B99E2BB015B81F3E00E3748E /* TFTestTabController.h */,
+				B99E2BB115B81F3E00E3748E /* TFTestTabController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B9A2AEED15AEC63C00D67267 /* Gameplay */ = {
+			isa = PBXGroup;
+			children = (
+				B9A2AEFA15AEC77B00D67267 /* TFGravity.h */,
+				B9A2AEFB15AEC77B00D67267 /* TFGravity.m */,
+				B9A2AEE915AEC62A00D67267 /* TFStoneGenerator.h */,
+				B9A2AEEA15AEC62A00D67267 /* TFStoneGenerator.m */,
+				B936F6EF15B05FDE00D1E98D /* TFGame.h */,
+				B936F6F015B05FDE00D1E98D /* TFGame.m */,
+			);
+			name = Gameplay;
+			sourceTree = "<group>";
+		};
+		B9C0B9BC15BAA91100D97BBC /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0B9BD15BAA91100D97BBC /* freePackPhone.tfpackergame */,
+				B9C0B9BE15BAA91100D97BBC /* freePackPad.tfpackergame */,
+				B9C0B9BF15BAA91100D97BBC /* puzzle1.tfpackergame */,
+				B9C0B9C015BAA91100D97BBC /* puzzle2.tfpackergame */,
+				B9C0B9C115BAA91100D97BBC /* puzzle3.tfpackergame */,
+				B9988D4C15C05D580013C3AB /* puzzle4.tfpackergame */,
+				B9099D1B15DD76C000BBBB35 /* puzzle5.tfpackergame */,
+				B99C044015DE4278003520E4 /* puzzle6.tfpackergame */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B953619015A31C0900A61BBE /* Packer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95361B215A31C0900A61BBE /* Build configuration list for PBXNativeTarget "Packer" */;
+			buildPhases = (
+				B953618D15A31C0900A61BBE /* Sources */,
+				B953618E15A31C0900A61BBE /* Frameworks */,
+				B953618F15A31C0900A61BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Packer;
+			productName = Packer;
+			productReference = B953619115A31C0900A61BBE /* Packer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9954C0115B32175007ECAF5 /* GameDesigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9954C1C15B32175007ECAF5 /* Build configuration list for PBXNativeTarget "GameDesigner" */;
+			buildPhases = (
+				B9954BFE15B32175007ECAF5 /* Sources */,
+				B9954BFF15B32175007ECAF5 /* Frameworks */,
+				B9954C0015B32175007ECAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameDesigner;
+			productName = GameDesigner;
+			productReference = B9954C0215B32175007ECAF5 /* GameDesigner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B99D604515A6F502009C6BF9 /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D605715A6F502009C6BF9 /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				B99D604115A6F502009C6BF9 /* Sources */,
+				B99D604215A6F502009C6BF9 /* Frameworks */,
+				B99D604315A6F502009C6BF9 /* Resources */,
+				B99D604415A6F502009C6BF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = B99D604615A6F502009C6BF9 /* LogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B99D60D415A72259009C6BF9 /* StonesDesigner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D60ED15A72259009C6BF9 /* Build configuration list for PBXNativeTarget "StonesDesigner" */;
+			buildPhases = (
+				B99D60D115A72259009C6BF9 /* Sources */,
+				B99D60D215A72259009C6BF9 /* Frameworks */,
+				B99D60D315A72259009C6BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StonesDesigner;
+			productName = StonesDesigner;
+			productReference = B99D60D515A72259009C6BF9 /* StonesDesigner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B953618815A31C0900A61BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = FloCo;
+			};
+			buildConfigurationList = B953618B15A31C0900A61BBE /* Build configuration list for PBXProject "Packer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B953618615A31C0900A61BBE;
+			productRefGroup = B953619215A31C0900A61BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B953619015A31C0900A61BBE /* Packer */,
+				B99D604515A6F502009C6BF9 /* LogicTests */,
+				B99D60D415A72259009C6BF9 /* StonesDesigner */,
+				B9954C0115B32175007ECAF5 /* GameDesigner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B953618F15A31C0900A61BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95361A015A31C0900A61BBE /* InfoPlist.strings in Resources */,
+				B95361AC15A31C0900A61BBE /* TFMainMenuController_iPhone.xib in Resources */,
+				B95361AF15A31C0900A61BBE /* TFMainMenuController_iPad.xib in Resources */,
+				B936F6ED15B040F100D1E98D /* testingStones.tfstones in Resources */,
+				B9C0B9C215BAA91100D97BBC /* freePackPhone.tfpackergame in Resources */,
+				B9C0B9C315BAA91100D97BBC /* freePackPad.tfpackergame in Resources */,
+				B9C0B9C415BAA91100D97BBC /* puzzle1.tfpackergame in Resources */,
+				B9C0B9C515BAA91100D97BBC /* puzzle2.tfpackergame in Resources */,
+				B9C0B9C615BAA91100D97BBC /* puzzle3.tfpackergame in Resources */,
+				B9988D4D15C05D580013C3AB /* puzzle4.tfpackergame in Resources */,
+				B9099D1C15DD76C000BBBB35 /* puzzle5.tfpackergame in Resources */,
+				B99C044115DE4278003520E4 /* puzzle6.tfpackergame in Resources */,
+				B9AE6F3D15EB84220035F3D7 /* Texture_atlas_512.png in Resources */,
+				B9AE6F3E15EB84220035F3D7 /* Texture_atlas_1024.png in Resources */,
+				B9AE6F3F15EB84220035F3D7 /* Texture_atlas_2048.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9954C0015B32175007ECAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9954C0A15B32175007ECAF5 /* InfoPlist.strings in Resources */,
+				B9954C1015B32175007ECAF5 /* Credits.rtf in Resources */,
+				B9954C1615B32175007ECAF5 /* TFDocument.xib in Resources */,
+				B9954C1915B32175007ECAF5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D604315A6F502009C6BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D605015A6F502009C6BF9 /* InfoPlist.strings in Resources */,
+				B936F6EE15B040F100D1E98D /* testingStones.tfstones in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D60D315A72259009C6BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D60DD15A72259009C6BF9 /* InfoPlist.strings in Resources */,
+				B99D60E315A72259009C6BF9 /* Credits.rtf in Resources */,
+				B99D60E915A72259009C6BF9 /* TFDocument.xib in Resources */,
+				B99D60EC15A72259009C6BF9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B99D604415A6F502009C6BF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B953618D15A31C0900A61BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95361A215A31C0900A61BBE /* main.m in Sources */,
+				B95361A615A31C0900A61BBE /* TFAppDelegate.m in Sources */,
+				B99D60FD15A725F3009C6BF9 /* TFGrid.m in Sources */,
+				B99D60FF15A725F3009C6BF9 /* TFStone.m in Sources */,
+				B99D610115A725F3009C6BF9 /* TFStoneOnGrid.m in Sources */,
+				B96D2D2315AB08BE00F06CA0 /* TFPosition.m in Sources */,
+				B9A2AEEB15AEC62A00D67267 /* TFStoneGenerator.m in Sources */,
+				B9A2AEFC15AEC77B00D67267 /* TFGravity.m in Sources */,
+				B936F6F115B05FDE00D1E98D /* TFGame.m in Sources */,
+				B901A7E515B9698700F2826A /* TFMainMenuController.m in Sources */,
+				B901A7F115B9ACF500F2826A /* TFPuzzlesViewController.m in Sources */,
+				B9C6084915BB0038009DE6FD /* TFGameViewController.m in Sources */,
+				B9C6085015BB0FB2009DE6FD /* TFLevelLoader.m in Sources */,
+				B937B44215BC03DF0050CDEC /* TFGameView.m in Sources */,
+				B937B44C15BC23820050CDEC /* TFTextureLoader.m in Sources */,
+				B9A305AB15C2778700B9A258 /* TFCGExtras.m in Sources */,
+				B9AE6F3915EB68590035F3D7 /* FSTextures.m in Sources */,
+				B99C9FF815EE2DC50087712A /* TFGameViewUserInput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9954BFE15B32175007ECAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9954C0C15B32175007ECAF5 /* main.m in Sources */,
+				B9954C1315B32175007ECAF5 /* TFDocument.m in Sources */,
+				B99E465F15B32D27000184B3 /* TFDocumentWindowController.m in Sources */,
+				B99E466215B32E64000184B3 /* TFGeneralTabController.m in Sources */,
+				B99E466315B336F2000184B3 /* TFGame.m in Sources */,
+				B99E466415B336F5000184B3 /* TFStoneGenerator.m in Sources */,
+				B99E466515B336F8000184B3 /* TFGravity.m in Sources */,
+				B99E466615B336FC000184B3 /* TFPosition.m in Sources */,
+				B99E466715B336FF000184B3 /* TFGrid.m in Sources */,
+				B99E466815B33702000184B3 /* TFStone.m in Sources */,
+				B99E466915B33704000184B3 /* TFStoneOnGrid.m in Sources */,
+				B901EC5215B3FAE60037F55C /* TFStonesTabController.m in Sources */,
+				B901EC5415B3FFBF0037F55C /* TFStoneTableCell.m in Sources */,
+				B901EC5515B3FFC20037F55C /* TFStoneShaperView.m in Sources */,
+				B9974DED15B54F8200194EDC /* TFGridView.m in Sources */,
+				B9974DF015B5537F00194EDC /* TFGridTabController.m in Sources */,
+				B99E2BB215B81F3E00E3748E /* TFTestTabController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D604115A6F502009C6BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D605315A6F502009C6BF9 /* LogicTests.m in Sources */,
+				B96D2D1915A9BBA200F06CA0 /* TFStone.m in Sources */,
+				B96D2D1A15A9BC2800F06CA0 /* TFGrid.m in Sources */,
+				B96D2D1B15A9BC3500F06CA0 /* TFStoneOnGrid.m in Sources */,
+				B96D2D2415AB08BE00F06CA0 /* TFPosition.m in Sources */,
+				B9A2AEFD15AEC77B00D67267 /* TFGravity.m in Sources */,
+				B993D65615B03982007B9D89 /* TFStoneGenerator.m in Sources */,
+				B936F6F215B05FDE00D1E98D /* TFGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99D60D115A72259009C6BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99D60DF15A72259009C6BF9 /* main.m in Sources */,
+				B99D60E615A72259009C6BF9 /* TFDocument.m in Sources */,
+				B99D60FE15A725F3009C6BF9 /* TFGrid.m in Sources */,
+				B99D610015A725F3009C6BF9 /* TFStone.m in Sources */,
+				B99D610215A725F3009C6BF9 /* TFStoneOnGrid.m in Sources */,
+				B96D2D2515AB08BE00F06CA0 /* TFPosition.m in Sources */,
+				B936F72715B1FE7F00D1E98D /* TFStoneShaperView.m in Sources */,
+				B936F72915B1FE7F00D1E98D /* TFStonesWindowController.m in Sources */,
+				B936F72B15B1FE7F00D1E98D /* TFStoneTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B953619E15A31C0900A61BBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B953619F15A31C0900A61BBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B95361AA15A31C0900A61BBE /* TFMainMenuController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95361AB15A31C0900A61BBE /* en */,
+			);
+			name = TFMainMenuController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B95361AD15A31C0900A61BBE /* TFMainMenuController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95361AE15A31C0900A61BBE /* en */,
+			);
+			name = TFMainMenuController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		B9954C0815B32175007ECAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9954C0915B32175007ECAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9954C0E15B32175007ECAF5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9954C0F15B32175007ECAF5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B9954C1415B32175007ECAF5 /* TFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9954C1515B32175007ECAF5 /* en */,
+			);
+			name = TFDocument.xib;
+			sourceTree = "<group>";
+		};
+		B9954C1715B32175007ECAF5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9954C1815B32175007ECAF5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B99D604E15A6F502009C6BF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99D604F15A6F502009C6BF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B99D60DB15A72259009C6BF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99D60DC15A72259009C6BF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B99D60E115A72259009C6BF9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99D60E215A72259009C6BF9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B99D60E715A72259009C6BF9 /* TFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99D60E815A72259009C6BF9 /* en */,
+			);
+			name = TFDocument.xib;
+			sourceTree = "<group>";
+		};
+		B99D60EA15A72259009C6BF9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99D60EB15A72259009C6BF9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95361B015A31C0900A61BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95361B115A31C0900A61BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95361B315A31C0900A61BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Packer/Packer-Prefix.pch";
+				INFOPLIST_FILE = "Packer/Packer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B95361B415A31C0900A61BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Packer/Packer-Prefix.pch";
+				INFOPLIST_FILE = "Packer/Packer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9954C1A15B32175007ECAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameDesigner/GameDesigner-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "GameDesigner/GameDesigner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9954C1B15B32175007ECAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameDesigner/GameDesigner-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "GameDesigner/GameDesigner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B99D605515A6F502009C6BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
+				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B99D605615A6F502009C6BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogicTests/LogicTests-Prefix.pch";
+				INFOPLIST_FILE = "LogicTests/LogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B99D60EE15A72259009C6BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StonesDesigner/StonesDesigner-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "StonesDesigner/StonesDesigner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B99D60EF15A72259009C6BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StonesDesigner/StonesDesigner-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "StonesDesigner/StonesDesigner-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B953618B15A31C0900A61BBE /* Build configuration list for PBXProject "Packer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95361B015A31C0900A61BBE /* Debug */,
+				B95361B115A31C0900A61BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95361B215A31C0900A61BBE /* Build configuration list for PBXNativeTarget "Packer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95361B315A31C0900A61BBE /* Debug */,
+				B95361B415A31C0900A61BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9954C1C15B32175007ECAF5 /* Build configuration list for PBXNativeTarget "GameDesigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9954C1A15B32175007ECAF5 /* Debug */,
+				B9954C1B15B32175007ECAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D605715A6F502009C6BF9 /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D605515A6F502009C6BF9 /* Debug */,
+				B99D605615A6F502009C6BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99D60ED15A72259009C6BF9 /* Build configuration list for PBXNativeTarget "StonesDesigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99D60EE15A72259009C6BF9 /* Debug */,
+				B99D60EF15A72259009C6BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B953618815A31C0900A61BBE /* Project object */;
+}
